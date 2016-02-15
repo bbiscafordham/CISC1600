@@ -16,6 +16,12 @@ int main ()
 	cout << "Input a decimal  for y between -10.00 and 10.00, y = ";
 	cin >> y;
 
-	cout << "Hi " << a << ", I've calculated that " << x << " + " << y << " is " << x+y << ", and " << x << " - " << y << " = " << x-y << endl;
+	double result1;
+	result1 = x + y;
+
+	double result2;
+	result2 = x - y;
+
+	cout << "Hi " << a << ", I've calculated that " << x << " + " << y << " is " << result1 << ", and " << x << " - " << y << " = " << result2 << endl;
 }
 
