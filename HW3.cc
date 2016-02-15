@@ -8,12 +8,12 @@ int main ()
 	cout << "Enter your name: ";
 	cin >> a;
 
-	float x;
-	cout << "Input x = ";
+	int x;
+	cout << "Input an integer for x between 0 and 100, x = ";
 	cin >> x;
 
-	float y;
-	cout << "Input y = ";
+	double y;
+	cout << "Input a decimal  for y between -10.00 and 10.00, y = ";
 	cin >> y;
 
 	cout << "Hi " << a << ", I've calculated that " << x << " + " << y << " is " << x+y << ", and " << x << " - " << y << " = " << x-y << endl;
